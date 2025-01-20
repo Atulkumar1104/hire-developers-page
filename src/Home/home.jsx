@@ -10,9 +10,10 @@ import LatestInsights from "../components/latestInsights";
 import IndustryInsights from "../components/industryInsights";
 import FAQSection from "../components/faq";
 import ContactSection from "../components/contactUs";
-import NextJsBenefits from "../components/LASTPOINTS.JSX";
+
 import { OrbEffectDemo } from "../components/ord-demo";
 import HorizontalNav from "../components/internalnav";
+import NextJsBenefits from "../components/benefiets.jsx";
 
 const Home = () => {
   const [isNavVisible, setIsNavVisible] = useState(false);
