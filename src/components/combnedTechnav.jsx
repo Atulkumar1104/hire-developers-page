@@ -484,7 +484,7 @@ export default function CombinedTechNav() {
   const [selectedCategory, setSelectedCategory] = useState("frontend");
 
   return (
-    <div className="flex flex-col p-24 bg-gradient-to-b from-black to-gray-900 ">
+    <div className="flex flex-col p-24 ">
       {/* New Heading Section */}
       <div className="mb-12 text-center">
         <h1 className="text-5xl max-w-5xl mx-auto font-bold text-white mb-4">

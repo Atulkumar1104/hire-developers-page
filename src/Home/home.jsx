@@ -14,6 +14,7 @@ import ContactSection from "../components/contactUs";
 import { OrbEffectDemo } from "../components/ord-demo";
 import HorizontalNav from "../components/internalnav";
 import NextJsBenefits from "../components/benefiets.jsx";
+import Carousel from "../components/featureProjects.jsx";
 
 const Home = () => {
   const [isNavVisible, setIsNavVisible] = useState(false);
@@ -72,7 +73,6 @@ const Home = () => {
             <HorizontalNav />
           </div>
         )}
-
         {/* Rest of your sections */}
         <div className="relative z-10 bg-gradient-to-b from-[#0e1421] to-black">
           <FlowingCardsDemo />
@@ -80,9 +80,13 @@ const Home = () => {
         <div id="benefits" className="bg-gradient-to-b from-black to-gray-900">
           <BenefitsGrid />
         </div>
-        <div id="tech" className="bg-gradient-to-b from-black to-gray-900">
+        <div id="tech" className="bg-gradient-to-b from-gray-900 to-black">
           <CombinedTechNav />
         </div>
+        <div className="bg-gradient-to-b from-black to-gray-900" >
+          <Carousel />
+        </div>
+
         <div id="features" className="bg-gradient-to-b from-gray-900 to-black">
           <FeatureStepsDemo />
         </div>
